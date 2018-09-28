@@ -48,7 +48,7 @@ list_.append(e)
 
 print ('이번 당첨 번호 : ', List_lotto)
 
-coMatch = Match( List_Lotto, list_ )
+coMatch = Match( List_Lotto, list_)
 print ('당신의 숫자 : ', list_, '맞흰 개수:' , coMatch)
 for x in range(1, 10):
     List_Robort = Lotto()
